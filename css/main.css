@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: “Open Sans”, sans-serif;
+    color: #272829;
+}
+a {
+  color: #0563BB;
+  text-decoration: none;
+}
+a:hover {
+  color: #067DED;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: “Raleway”, sans-serif;
+}
+
+
+.navbar {
+    background:#001337;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdeerfieldlibrary.org%2Fwp-content%2Fuploads%2F2016%2F03%2Fgeneric-background-resized.jpg&f=1&nofb=1');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: #fff;
+    font-size: 2.6rem;
+}
+.description p {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.description button {
+    border:1px solid #fff;
+    background:##3b5998;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+    border:1px solid #fff;
+    background:##3b5998;
+    color:#000;
+}
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #000;
+    padding: 40px 0;
+}
